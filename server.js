@@ -12,7 +12,7 @@ app.get("/",cors(),(req,res)=>{
 })
 
 app.use(cors({
-    origin:['https://ecommerce-web-kqdi.onrender.com/']
+    origin:['https://ecommerce-web-rqhz.onrender.com']
 }));
 
 
