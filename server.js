@@ -6,11 +6,13 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 
-app.get('/', (req, res) => { res.send('Hello from Express!');
+app.get('/', (req, res) => {
+     res.send('Hello from Express!')
+    },
 
 app.use(cors({
     origin:['https://ecommerce-web-rqhz.onrender.com']
-}));
+})));
 
 
 //Login
